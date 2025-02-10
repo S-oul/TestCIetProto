@@ -1,0 +1,8 @@
+name : Build
+on : Build
+jobs :
+  firstjob:
+    run-on: ubuntu-latest
+    steps:
+      -name: Print Yay
+        run : echo "Hello World Yay"
